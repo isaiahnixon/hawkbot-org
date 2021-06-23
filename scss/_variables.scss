@@ -1,0 +1,20 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@500&display=swap');
+
+@mixin font-scaling($min, $scale) {
+    font-size: calc(#{$min + "px"} + (#{$min} * #{$scale}) * ((100vw - 325px) / (2514 - 325)));
+}
+
+@mixin height-scaling($min, $scale) {
+    height: calc(#{$min + "px"} + (#{$min} * #{$scale}) * ((100vw - 325px) / (2514 - 325)));
+}
+
+$font-heading: 'Ubuntu', sans-serif;
+$font-body: 'Fira Sans', sans-serif;
+
+$blue-purple: #2765ac;
+$pink: #f5255a;
+$black: #000;
+$dark-pink: #ff1054;
+$light-purple: #7c16df;
+$light-pink:  #f97efa;
+$medium-pink: #ef3161;

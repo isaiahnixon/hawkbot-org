@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@500&display=swap");
+* {
+  -webkit-print-color-adjust: exact;
+  -webkit-transition: none !important;
+  transition: none !important; }
+
+a[href]:after {
+  display: none; }
+
+.print {
+  display: block !important; }
+
+.header {
+  background: black !important; }
+  .header * {
+    color: white !important; }
+
+h2 {
+  font-size: 30px !important; }
+
+p {
+  font-size: 20px !important; }
+
+ul {
+  font-size: 20px !important; }
+
+.experience > ul > li {
+  font-size: 20px !important; }
+  .experience > ul > li > ul {
+    font-size: 16px !important; }
+
+.projects > ul > li {
+  font-size: 20px !important; }
+  .projects > ul > li > ul {
+    font-size: 18px !important; }
+
+hr:last-of-type {
+  margin-bottom: 3em; }
+
+/*# sourceMappingURL=print.css.map */

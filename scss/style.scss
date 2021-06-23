@@ -1,0 +1,79 @@
+@import "variables.scss";
+
+// Import all other scss files that need to be complied.
+
+.home .jumbotron {
+    background: url("../img/banner-1.jpg");
+}
+
+.roadmap .jumbotron {
+    background: url("../img/banner-2.jpg");
+}
+
+.contact .jumbotron {
+    background: url("../img/banner-3.jpg");
+}
+
+h1 {
+    font-family: $font-heading;
+}
+
+* {
+    font-family: $font-body;
+}
+
+.jumbotron {
+
+	border-radius: 0;
+    min-height: 19em;
+
+    .transparent-background {
+        width: max-content;
+        border-radius: 1em;
+        padding: 0.25em;
+        margin: 0.25em 0;
+        background: rgba(0, 0, 0, 0.67);
+    }
+
+    .btn.bg-light.btn-lg {
+        box-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+        border: 2px rgba(0, 0, 0, 0.33) groove;
+    }
+}
+
+.badge img {
+  width: 12em;
+}
+
+.badge {
+  float: right;
+  margin: 1em 5em;
+  background: rgba(256, 256, 256, 1);
+  border-radius: 6em;
+  opacity: 0.75;
+}
+
+#nav {
+	background: rgb(48,2,92);
+	background: linear-gradient(90deg, rgba(48,2,92,1) 0%, rgba(0,0,0,1) 25%);
+}
+
+.bg-dark {
+	background: $black !important;
+}
+
+.text-dark {
+	color: $black !important;
+}
+
+// ul.navbar-nav > li > a.nav-link {
+// 	color: $blue-purple !important;
+// }
+
+// .navbar.navbar-expand-md {
+//   background: $black;
+// }
+
+// .bg-dark {
+//   background: $black !important;
+// }
