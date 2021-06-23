@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@500&display=swap');
 
 @mixin font-scaling($min, $scale) {
-    font-size: calc(#{$min + "px"} + (#{$min} * #{$scale}) * ((100vw - 325px) / (2514 - 325)));
+    font-size: calc(#{$min + "px"} + (#{$min} * #{$scale}) * ((100vw - 325px) / (2514 - 325))) !important;
 }
 
 @mixin height-scaling($min, $scale) {

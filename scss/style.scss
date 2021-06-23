@@ -16,6 +16,7 @@
 
 h1 {
     font-family: $font-heading;
+    @include font-scaling(50, 1.5);
 }
 
 * {
@@ -28,7 +29,7 @@ h1 {
     min-height: 19em;
 
     .transparent-background {
-        width: max-content;
+        max-width: max-content;
         border-radius: 1em;
         padding: 0.25em;
         margin: 0.25em 0;
