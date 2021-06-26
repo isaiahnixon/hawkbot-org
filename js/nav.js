@@ -11,5 +11,9 @@
 	if ($("body").hasClass('home')) {
 		$('#home').addClass('active');
 	}
+
+	if ($("body").hasClass('strategy')) {
+		$('#strategy').addClass('active');
+	}
 	
 })(jQuery);
