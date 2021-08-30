@@ -10,23 +10,23 @@ These instructions will get you a copy of the project up and running on your loc
 
 * **[Git](https://git-scm.com/)**
 * **[Chrome](https://www.google.com/chrome/)** *(Recommended)*
-* **[Python](https://www.python.org/)** *(Recommended)*
+* **[Python3](https://www.python.org/)** *(Recommended)*
 
 ### Installing
 
 Clone the repository
 
 ```
-git clone https://github.com/isaiahnixon/resume
+git clone https://github.com/isaiahnixon/hawkbot-org
 ```
 
 Run a local web server
 
 ```
-python -m SimpleHTTPServer 8080
+python3 server.py
 ```
 
-Nativate to [http://localhost:8080](http://localhost:8080) in a web browser.
+Nativate to [http://localhost:4000](http://localhost:4000) in a web browser.
 
 
 ## Built With
