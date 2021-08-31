@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@500&display=swap");
 .home .jumbotron {
-  background: url("../img/banner-1.jpg"); }
+  background: url("../img/banner-3.jpg"); }
 
 .roadmap .jumbotron {
   background: url("../img/banner-2.jpg"); }
 
 .contact .jumbotron {
-  background: url("../img/banner-3.jpg"); }
+  background: url("../img/banner-1.jpg"); }
 
 .fund .jumbotron {
   background: url("../img/banner-4.jpg"); }
@@ -49,8 +49,7 @@ h1 {
   float: right;
   margin: 1em 5em;
   background: white;
-  border-radius: 6em;
-  opacity: 0.75; }
+  border-radius: 6em; }
 
 @media only screen and (min-width: 1000px) {
   .jumbotron {

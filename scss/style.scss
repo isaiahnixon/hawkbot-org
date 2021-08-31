@@ -3,7 +3,7 @@
 // Import all other scss files that need to be complied.
 
 .home .jumbotron {
-    background: url("../img/banner-1.jpg");
+    background: url("../img/banner-3.jpg");
 }
 
 .roadmap .jumbotron {
@@ -11,7 +11,7 @@
 }
 
 .contact .jumbotron {
-    background: url("../img/banner-3.jpg");
+    background: url("../img/banner-1.jpg");
 }
 
 .fund .jumbotron {
@@ -71,7 +71,7 @@ h1 {
     margin: 1em 5em;
     background: rgba(256, 256, 256, 1);
     border-radius: 6em;
-    opacity: 0.75;
+    //opacity: 0.75;
 }
 
 @media only screen and (min-width: 1000px) {
