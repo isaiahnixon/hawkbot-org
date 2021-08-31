@@ -12,8 +12,12 @@
 		$('#home').addClass('active');
 	}
 
-	if ($("body").hasClass('strategy')) {
-		$('#strategy').addClass('active');
+	if ($("body").hasClass('fund')) {
+		$('#fund').addClass('active');
+	}
+
+	if ($("body").hasClass('services')) {
+		$('#services').addClass('active');
 	}
 	
 })(jQuery);
