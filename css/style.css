@@ -48,11 +48,11 @@ h1 {
     display: block;
     width: 100vw;
     height: inherit;
-    -webkit-filter: blur(2px) brightness(120%);
-    -moz-filter: blur(2px) brightness(120%);
-    -o-filter: blur(2px) brightness(120%);
-    -ms-filter: blur(2px) brightness(120%);
-    filter: blur(2px) brightness(120%); }
+    -webkit-filter: brightness(120%);
+    -moz-filter: brightness(120%);
+    -o-filter: brightness(120%);
+    -ms-filter: brightness(120%);
+    filter: brightness(120%); }
 
 .badge img {
   width: 12em; }
@@ -94,6 +94,10 @@ h1 {
 #nav {
   background: #b9b9b9;
   background: linear-gradient(90deg, #b9b9b9 0%, black 12%, #4f4f4f 100%); }
+
+#footer {
+  background: black;
+  background: linear-gradient(90deg, black 61%, #b4b4b4 95%, white 100%); }
 
 .bg-dark {
   background: #000 !important; }
