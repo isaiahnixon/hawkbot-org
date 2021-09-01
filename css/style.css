@@ -116,7 +116,16 @@ main {
     position: absolute;
     z-index: 99; }
     .jumbotron .content h1 {
-      padding-left: 0.25em; } }
+      padding-left: 0.25em; }
+
+  #nav ul {
+    padding-left: 1.2em; }
+
+  .jumbotron a.btn {
+    margin: 1em; }
+
+  .navbar-brand img {
+    max-height: 50px; } }
 #nav {
   background: #b9b9b9;
   background: linear-gradient(90deg, #f4e8e1 0%, #141414 12%, #141414 88%, #14353e 100%); }
@@ -138,5 +147,8 @@ main {
 
 .text-dark {
   color: #141414 !important; }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(244, 232, 225, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
 
 /*# sourceMappingURL=style.css.map */

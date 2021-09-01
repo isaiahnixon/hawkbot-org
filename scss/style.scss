@@ -161,10 +161,22 @@ main {
             padding-left: 0.25em;
         }
     }
+
+    #nav ul {
+        padding-left: 1.2em;
+    }
+
+    .jumbotron a.btn {
+        margin: 1em;
+    }
+
+    .navbar-brand img {
+        max-height: 50px;
+    }
 }
 
 #nav {
-    background: rgb(185,185,185);
+    background: rgb(185, 185, 185);
     background: linear-gradient(90deg, $linen 0%, $eerie-black 12%, $eerie-black 88%, $gunmetal 100%);
 
     li > a {
@@ -172,7 +184,7 @@ main {
 
         &:focus, &:hover, &:active {
             color: $isabelline;
-            text-decoration:underline;
+            text-decoration: underline;
         }
     }
 
@@ -182,7 +194,7 @@ main {
 }
 
 #footer {
-    background: rgb(0,0,0);
+    background: rgb(0, 0, 0);
     background: linear-gradient(90deg, $eerie-black 88%, $linen 100%);
     color: $linen;
 }
@@ -193,6 +205,10 @@ main {
 
 .text-dark {
     color: $eerie-black !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(244, 232, 225, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 // ul.navbar-nav > li > a.nav-link {
