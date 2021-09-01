@@ -23,21 +23,33 @@
 }
 
 h1 {
-    font-family: $font-heading;
-
     @include font-scaling(50, 1.5);
 
     .sub {
         @include font-scaling(20, 2);
 
         position: relative;
-        top: -0.5em;
+        top: -0.75em;
         margin: -0.5em 0;
     }
 }
 
+h1, h2, h3, h4, h5 {
+    color: $gunmetal;
+    font-family: $font-heading;
+}
+
+p {
+    font-size: 18px;
+}
+
 .home h1 {
     margin: 0 0 -0.33em 0;
+}
+
+main {
+    background-color: $isabelline;
+    color: $eerie-black;
 }
 
 * {
@@ -56,9 +68,17 @@ h1 {
         padding-left: 2em;
     }
 
-    .btn.bg-light.btn-lg {
+    .btn.btn-lg {
         box-shadow: 1px 1px rgba(0, 0, 0, 0.25);
         border: 2px rgba(0, 0, 0, 0.33) groove;
+        background-color: $linen;
+        color: $eerie-black;
+
+        &:focus, &:hover, &:active {
+            background-color: $eerie-black;
+            color: $isabelline;
+            text-decoration: underline;
+        }
     }
 
     .background-image {
@@ -145,20 +165,34 @@ h1 {
 
 #nav {
     background: rgb(185,185,185);
-    background: linear-gradient(90deg, rgba(185,185,185,1) 0%, rgba(0,0,0,1) 12%, rgba(79,79,79,1) 100%);
+    background: linear-gradient(90deg, $linen 0%, $eerie-black 12%, $eerie-black 88%, $gunmetal 100%);
+
+    li > a {
+        color: $champagne-pink;
+
+        &:focus, &:hover, &:active {
+            color: $isabelline;
+            text-decoration:underline;
+        }
+    }
+
+    li.active > a {
+        color: $linen;
+    }
 }
 
 #footer {
     background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 61%, rgba(180,180,180,1) 95%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, $eerie-black 88%, $linen 100%);
+    color: $linen;
 }
 
 .bg-dark {
-    background: $black !important;
+    background: $eerie-black !important;
 }
 
 .text-dark {
-    color: $black !important;
+    color: $eerie-black !important;
 }
 
 // ul.navbar-nav > li > a.nav-link {

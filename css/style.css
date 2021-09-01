@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu:wght@500&display=swap");
+/* SCSS HEX */
+/* SCSS HSL */
+/* SCSS RGB */
 .home .jumbotron .background-image {
   background-image: url("../img/banner-3.jpg"); }
 
@@ -15,16 +18,26 @@
   background-image: url("../img/banner-5.jpg"); }
 
 h1 {
-  font-family: "Ubuntu", sans-serif;
   font-size: calc(50px + (50 * 1.5) * ((100vw - 325px) / (2514 - 325))) !important; }
   h1 .sub {
     font-size: calc(20px + (20 * 2) * ((100vw - 325px) / (2514 - 325))) !important;
     position: relative;
-    top: -0.5em;
+    top: -0.75em;
     margin: -0.5em 0; }
+
+h1, h2, h3, h4, h5 {
+  color: #14353e;
+  font-family: "Ubuntu", sans-serif; }
+
+p {
+  font-size: 18px; }
 
 .home h1 {
   margin: 0 0 -0.33em 0; }
+
+main {
+  background-color: #eee7e7;
+  color: #141414; }
 
 * {
   font-family: "Fira Sans", sans-serif; }
@@ -38,9 +51,15 @@ h1 {
     width: auto;
     margin: 0 !important;
     padding-left: 2em; }
-  .jumbotron .btn.bg-light.btn-lg {
+  .jumbotron .btn.btn-lg {
     box-shadow: 1px 1px rgba(0, 0, 0, 0.25);
-    border: 2px rgba(0, 0, 0, 0.33) groove; }
+    border: 2px rgba(0, 0, 0, 0.33) groove;
+    background-color: #f4e8e1;
+    color: #141414; }
+    .jumbotron .btn.btn-lg:focus, .jumbotron .btn.btn-lg:hover, .jumbotron .btn.btn-lg:active {
+      background-color: #141414;
+      color: #eee7e7;
+      text-decoration: underline; }
   .jumbotron .background-image {
     position: absolute;
     left: 0;
@@ -100,16 +119,24 @@ h1 {
       padding-left: 0.25em; } }
 #nav {
   background: #b9b9b9;
-  background: linear-gradient(90deg, #b9b9b9 0%, black 12%, #4f4f4f 100%); }
+  background: linear-gradient(90deg, #f4e8e1 0%, #141414 12%, #141414 88%, #14353e 100%); }
+  #nav li > a {
+    color: #e3ceca; }
+    #nav li > a:focus, #nav li > a:hover, #nav li > a:active {
+      color: #eee7e7;
+      text-decoration: underline; }
+  #nav li.active > a {
+    color: #f4e8e1; }
 
 #footer {
   background: black;
-  background: linear-gradient(90deg, black 61%, #b4b4b4 95%, white 100%); }
+  background: linear-gradient(90deg, #141414 88%, #f4e8e1 100%);
+  color: #f4e8e1; }
 
 .bg-dark {
-  background: #000 !important; }
+  background: #141414 !important; }
 
 .text-dark {
-  color: #000 !important; }
+  color: #141414 !important; }
 
 /*# sourceMappingURL=style.css.map */

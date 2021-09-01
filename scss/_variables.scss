@@ -11,10 +11,29 @@
 $font-heading: 'Ubuntu', sans-serif;
 $font-body: 'Fira Sans', sans-serif;
 
-$blue-purple: #2765ac;
-$pink: #f5255a;
-$black: #000;
-$dark-pink: #ff1054;
-$light-purple: #7c16df;
-$light-pink:  #f97efa;
-$medium-pink: #ef3161;
+$white: #FFF;
+
+// Generated with coolors.co
+/* SCSS HEX */
+$eerie-black: #141414;
+$gunmetal: #14353e;
+$morning-blue: #94a48e;
+$champagne-pink: #e3ceca;
+$linen: #f4e8e1;
+$isabelline: #eee7e7;
+
+/* SCSS HSL */
+$eerie-black: hsla(0, 0%, 8%, 1);
+$gunmetal: hsla(193, 51%, 16%, 1);
+$morning-blue: hsla(104, 11%, 60%, 1);
+$champagne-pink: hsla(10, 31%, 84%, 1);
+$linen: hsla(22, 46%, 92%, 1);
+$isabelline: hsla(0, 17%, 92%, 1);
+
+/* SCSS RGB */
+$eerie-black: rgba(20, 20, 20, 1);
+$gunmetal: rgba(20, 53, 62, 1);
+$morning-blue: rgba(148, 164, 142, 1);
+$champagne-pink: rgba(227, 206, 202, 1);
+$linen: rgba(244, 232, 225, 1);
+$isabelline: rgba(238, 231, 231, 1);

@@ -26,6 +26,12 @@ Run a local web server
 python3 server.py
 ```
 
+Run a SASS compiler
+
+```
+sass --watch scss:css
+```
+
 Nativate to [http://localhost:4000](http://localhost:4000) in a web browser.
 
 
