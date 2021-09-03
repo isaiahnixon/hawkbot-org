@@ -68,6 +68,7 @@ main {
     display: block;
     width: 100%;
     height: inherit;
+    background-position: right;
     -webkit-filter: brightness(120%);
     -moz-filter: brightness(120%);
     -o-filter: brightness(120%);
@@ -82,6 +83,9 @@ main {
   margin: 1em 5em;
   background: white;
   border-radius: 6em; }
+
+h2 {
+  font-size: 1.75em; }
 
 @media only screen and (min-width: 1000px) {
   .jumbotron > div.content {
@@ -122,10 +126,25 @@ main {
     padding-left: 1.2em; }
 
   .jumbotron a.btn {
-    margin: 1em; }
+    margin: 0.5em; }
 
   .navbar-brand img {
-    max-height: 50px; } }
+    max-height: 50px; }
+
+  .home .jumbotron .background-image {
+    background-image: url("../img/mobile-banner-2.jpg"); }
+
+  .roadmap .jumbotron .background-image {
+    background-image: url("../img/mobile-banner-1.jpg"); }
+
+  .contact .jumbotron .background-image {
+    background-image: url("../img/mobile-banner-3.jpg"); }
+
+  .fund .jumbotron .background-image {
+    background-image: url("../img/mobile-banner-4.jpg"); }
+
+  .services .jumbotron .background-image {
+    background-image: url("../img/mobile-banner-5.jpg"); } }
 #nav {
   background: #b9b9b9;
   background: linear-gradient(90deg, #f4e8e1 0%, #141414 12%, #141414 88%, #14353e 100%); }
